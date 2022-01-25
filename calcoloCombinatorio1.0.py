@@ -14,9 +14,10 @@ class calcComb():
         return self.__listStringa
 
     def setStringa(self,str):
-        self.__N = len(stringa)
+
         self.__stringa = str
-        self.__listStringa = list(stringa)
+
+        return self.__stringa
 
     def anagrammi(self):
         lettere = list(parola)
@@ -86,6 +87,67 @@ class calcComb():
             div = a // (b*(x-y))
         return(div)  
 
-parola= calcComb(str(input("inserisci una stringa")))
-parola.combUtil()
+    # DISPOSIZIONI
 
+    def nDispSemplSenzaRip(self):
+        calcComb.fattoriale(self.n)
+        return fattoriale(n) / fattoriale(n-k)
+        
+
+    def nDispSemplConRip(self):
+        P = n**k
+        return P
+
+    def dispSemplSenzaRip(self):
+        
+        return 0
+
+
+    def dispSemplConRip(self):
+      
+        return 0
+
+        pass
+
+    # PERMUTAZIONI
+
+    def nPermutSenzaRip(self):
+        calcComb.fattoriale(self.n)
+        return fattoriale(n)
+     
+
+    def nPermutConRip(self):
+        calcComb.fattoriale(self.n)
+
+        numeroripetizioni=fattoriale(n) / fattoriale(h) * fattoriale(k) * fattoriale(s)
+
+        return numeroripetizioni
+
+    def permutSenzaRip(self):
+        
+        return 0
+
+    def permutConRip(self):
+        
+        return 0
+
+        pass
+
+    # COMBINAZIONI
+
+    def nCombSemplSenzaRip(self):
+        calcComb.fattoriale(self.n)
+        return fattoriale(n) / fattoriale(k) * fattoriale(n-k)
+       
+
+    def nCombSemplConRip(self):
+        calcComb.fattoriale(self.n)
+        return fattoriale(n + k - 1) / fattoriale(k) * fattoriale(n-1)
+       
+    def combSenzaRip(self):
+
+        return 
+
+    def combConRip(self):
+        
+        pass
