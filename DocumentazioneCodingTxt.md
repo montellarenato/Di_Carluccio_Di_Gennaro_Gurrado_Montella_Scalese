@@ -1,7 +1,7 @@
-﻿DOCUMENTAZIONE
+# DOCUMENTAZIONE
 
 
-Descrizione della classe 
+## Descrizione della classe 
 Per la realizzazione del gioco, abbiamo creato una classe su Python, la quale tiene conto delle regole del calcolo combinatorio. Nella classe abbiamo creato varie funzioni che ci serviranno per realizzare il ruzzle. Ora elencheremo alcune di queste funzioni.
 * anagrammi: questa funzione attraverso un ciclo di for realizzerà una lista di anagrammi a partire da una stringa di caratteri data. Il metodo permutazioni genera una lista di tuple, ogni tupla è una permutazione e se scorriamo la lista attraverso un ciclo, possiamo scorrere gli elementi della tupla per ricostruire la stringa.
   
