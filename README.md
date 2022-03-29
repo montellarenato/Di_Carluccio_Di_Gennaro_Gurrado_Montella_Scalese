@@ -65,3 +65,11 @@ Come per le permutazioni anche le disposizioni sono con e senza ripetizioni:
 Una combinazione è un raggruppamento di k elementi, presi in qualsiasi ordine, formato a partire da n elementi distinti. In termini più rigorosi si dice combinazione ogni sequenza di k elementi estratti tra  n elementi distinti, nell'ipotesi che l'ordine di estrazione sia ininfluente. Pure in questi caso esistono combinazioni semplici e con ripetizioni:
 * Combinazioni semplici: Le combinazioni semplici di n elementi distinti di classe k (con 0<k≤n) sono tutti i gruppi che si possono formare con k elementi, presi fra gli n, e tali che ogni gruppo è diverso dagli altri per almeno un elemento contenuto. Cn,k=Dn,k/ Pk=n!/k!(n-k)!
 * Combinazioni con ripetizioni:  Le combinazioni con ripetizioni di n elementi distinti di classe k, sono tutti i gruppi che si possono formare con k elementi, presi fra gli n; ogni elemento di un gruppo può essere ripetuto fino a k volte, non interessa l’ordine in cui gli elementi si presentano e in ciascun gruppo è diverso il numero delle volte in cui un elemento compare. C’n,k=Cn+k-1,k=(n+k-1)*(n+k-2)*.../k!
+
+
+### PROBABILITÀ
+La probabilità di un evento (E) è il rapporto fra il numero dei casi favorevoli (f) e quello dei casi possibili (u) quando sono tutti ugualmente possibili. p(E)= f/u.
+Poiché il numero dei casi favorevoli è sempre minore o uguale al numero dei casi possibili la probabilità di evento è sempre compresa tra 0 e 1.  0 ≤ p(E ) ≤ 1
+Poi abbiamo dei casi particolari:
+* Quando il numero dei casi favorevoli è uguale al numero dei casi possibili l’evento sarà certo cioè uguale a 1. p(E)=1
+* Quando il numero dei casi favorevoli è uguale a 0 cioè nullo l’evento sarà impossibile. p(E)=0
