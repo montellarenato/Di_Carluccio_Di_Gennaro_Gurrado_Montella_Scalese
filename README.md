@@ -49,19 +49,19 @@ Le parole possono essere formate da qualsiasi tipo di combinazione tra lettere a
 Per la realizzazione del gioco, è stata creata una classe a oggetti, utilizzando il linguaggio Python, che tiene conto delle regole del calcolo combinatorio. Nella classe sono state create varie funzioni che servono per realizzare il gioco A.R.A.L.L., le quali sono ben definite nel pdf documentazioneA.R.A.L.L. presente nella caretella documentazione. Dopo aver creato queste funzioni della classe calcComb (calcolo combinatorio), si procede con la creazione di ulteriori funzioni: permutazioni, disposizioni e combinazioni.
 
 
-### Permutazioni
+### PERMUTAZIONI
 Una permutazione è il risultato di uno scambio dell'ordine degli elementi di una sequenza, ossia è uno dei possibili modi per ordinare elementi di qualsiasi tipo. Si distinguono due tipi di permutazioni: le permutazioni semplici, le permutazioni con ripetizione.
 * Permutazioni semplici: le permutazioni semplici di n elementi distinti sono tutti i gruppi formati dagli n elementi, che differiscono per il loro ordine Pn = n!
 * Permutazioni con ripetizioni: Le permutazioni con ripetizioni di n elementi di cui h, k,... ripetuti, sono tutti i gruppi formati  dagli n elementi, che differiscono per l’ordine in cui si presentano gli elementi distinti e la posizione che occupano gli elementi ripetuti. Pn(h,k…) = n! /  h! * k! *…
 
 
-### Disposizioni
+### DISPOSIZIONI
 Come per le permutazioni anche le disposizioni sono con e senza ripetizioni:
 * DIsposizioni semplici: Le disposizioni semplici di n elementi distinti di classe k (con n,k appartenenti a N e k≤n) sono tutti i gruppi che si possono formare con k elementi, presi fra gli n, tali che ognuno è diverso dagli altri per gli elementi contenuti o l’ordine. Dn,k= n* (n-1) * (n-2)*...*(n-k+1)=n!/(n-k)!
 * Disposizioni con ripetizioni: Le disposizioni con ripetizioni di n elementi distinti di classe k( con n,k appartenenti a N) sono tutti i gruppi che si possono formare con k elementi, anche ripetuti, presi fra gli n, tali che ogni gruppo è diverso dagli altri per gli elementi contenuti o per il loro ordine. D’n,k = nk
 
 
-### Combinazioni
+### COMBINAZIONI
 Una combinazione è un raggruppamento di k elementi, presi in qualsiasi ordine, formato a partire da n elementi distinti. In termini più rigorosi si dice combinazione ogni sequenza di k elementi estratti tra  n elementi distinti, nell'ipotesi che l'ordine di estrazione sia ininfluente. Pure in questi caso esistono combinazioni semplici e con ripetizioni:
 * Combinazioni semplici: Le combinazioni semplici di n elementi distinti di classe k (con 0<k≤n) sono tutti i gruppi che si possono formare con k elementi, presi fra gli n, e tali che ogni gruppo è diverso dagli altri per almeno un elemento contenuto. Cn,k=Dn,k/ Pk=n!/k!(n-k)!
 * Combinazioni con ripetizioni:  Le combinazioni con ripetizioni di n elementi distinti di classe k, sono tutti i gruppi che si possono formare con k elementi, presi fra gli n; ogni elemento di un gruppo può essere ripetuto fino a k volte, non interessa l’ordine in cui gli elementi si presentano e in ciascun gruppo è diverso il numero delle volte in cui un elemento compare. C’n,k=Cn+k-1,k=(n+k-1)*(n+k-2)*.../k!
