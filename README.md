@@ -9,21 +9,19 @@ Anno: 2021/2022
 
 
 
-
-Descrizione gioco        1
-REGOLE GIOCO        1
-REGOLE PER IL CALCOLO DEL PUNTEGGIO        2
-FUNZIONAMENTO        2
-INTERFACCIA DI LOGIN        2
-INTERFACCIA DEL GIOCO        3
-COLLEGAMENTO ALLA TEORIA        4
-SALVATAGGIO DATI        4
-Descrizione della classe        5
-Richiami matematici        7
-PERMUTAZIONI        7
-DISPOSIZIONI        7
-COMBINAZIONI        7
-PROBABILITÀ        8
+Descrizione gioco
+REGOLE GIOCO
+REGOLE PER IL CALCOLO DEL PUNTEGGIO
+FUNZIONAMENTO
+INTERFACCIA DI LOGIN
+INTERFACCIA DEL GIOCO
+COLLEGAMENTO ALLA TEORIA
+SALVATAGGIO DATI
+Richiami matematici
+PERMUTAZIONI
+DISPOSIZIONI
+COMBINAZIONI
+PROBABILITÀ
 
 ## Descrizione gioco
 Il gioco creato è A.R.A.L.L (Advance Ruzzle and Letters Labyrinth).
